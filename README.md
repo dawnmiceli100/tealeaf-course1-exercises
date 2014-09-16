@@ -1,0 +1,1 @@
+This repository contains the Tealeaf precourse exercises that I completed.
