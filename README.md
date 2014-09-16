@@ -1,1 +1,1 @@
-This repository contains the Tealeaf precourse exercises that I completed.
+This repository contains the exercises that I completed for Tealeaf course 1: Introduction to Ruby and Web Development.
