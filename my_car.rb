@@ -33,19 +33,28 @@ class MyCar
   def spray_paint(c)
     self.color = c
     puts "I have changed the color of my car to #{color}"
-  end   
+  end 
+
+  def self.mileage(miles, gallons)
+    puts "MPG is #{ miles / gallons }."
+  end  
+
+  def to_s
+    "My car is a #{color} #{year} #{model}"
+  end  
 
 end   
 
 bmw = MyCar.new(2011, "Blue", "BMW 328xi")  
-bmw.info
+puts bmw
 bmw.speed_up(15)
 bmw.brake(5)
 bmw.speed_up(30)
 bmw.brake(10)
 bmw.shut_off
 bmw.spray_paint("Red")
-bmw.info
+puts bmw
+puts MyCar.mileage(27, 1)
 
 
 
